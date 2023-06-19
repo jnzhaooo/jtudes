@@ -1,0 +1,43 @@
+forall A. forall B.
+(  
+    (
+       ( G   (
+    ( *obs_output=1*_A <-> *obs_output=1*_B )
+	&
+    ( *obs_output=2*_A <-> *obs_output=2*_B )
+	&
+    ( *obs_output=3*_A <-> *obs_output=3*_B )
+	&
+    ( *obs_output=4*_A <-> *obs_output=4*_B )
+    )) & (G( *!tau*_A )) & (G( *!tau*_B ))
+    ) 
+    
+    ->
+    
+(
+	 G ( 
+    ( *state_output=0*_A <-> *state_output=0*_B )
+	&
+    ( *state_output=1*_A <-> *state_output=1*_B )
+	&
+    ( *state_output=2*_A <-> *state_output=2*_B )
+	&
+    ( *state_output=3*_A <-> *state_output=3*_B )
+	&
+    ( *state_output=4*_A <-> *state_output=4*_B )
+    &
+    ( *state_output=5*_A <-> *state_output=5*_B )
+	&
+    ( *state_output=6*_A <-> *state_output=6*_B )
+	&
+    ( *state_output=7*_A <-> *state_output=7*_B )
+	&
+    ( *state_output=8*_A <-> *state_output=8*_B )
+    &
+    ( *state_output=9*_A <-> *state_output=9*_B )
+ &
+    ( *state_output=10*_A <-> *state_output=10*_B )
+    
+    ) 
+)
+)

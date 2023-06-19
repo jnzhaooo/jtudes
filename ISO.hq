@@ -1,0 +1,21 @@
+forall A. exists B.
+(  
+    ( ( *initial*_A )  & ( G ( *!tau*_A )) ) ->
+    
+(G   (
+    ( *obs_output=-1*_A <-> *obs_output=-1*_B )
+	&
+    ( *obs_output=0*_A <-> *obs_output=0*_B )
+	&
+    ( *obs_output=1*_A <-> *obs_output=1*_B )
+	&
+    ( *obs_output=2*_A <-> *obs_output=2*_B )
+	&
+    ( *obs_output=3*_A <-> *obs_output=3*_B )
+	&
+    ( *obs_output=4*_A <-> *obs_output=4*_B )
+    )
+	&
+    ( *!(secret)*_B ) & ( *initial*_B )
+)
+)
