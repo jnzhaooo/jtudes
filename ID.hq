@@ -1,0 +1,79 @@
+forall A. forall B.
+(  
+    (
+       ( G   (
+    ( *obs_output=0*_A <-> *obs_output=0*_B )
+	&
+    ( *obs_output=1*_A <-> *obs_output=1*_B )
+	&
+    ( *obs_output=2*_A <-> *obs_output=2*_B )
+	&
+    ( *obs_output=3*_A <-> *obs_output=3*_B )
+	&
+    ( *obs_output=4*_A <-> *obs_output=4*_B )
+    )) & (G( *!tau*_A )) & (G( *!tau*_B )) & ( *initial*_A ) & ( *initial*_B )
+    ) 
+    
+    ->
+    
+(
+	
+    ( *state_output=0*_A <-> *state_output=0*_B )
+	&
+    ( *state_output=1*_A <-> *state_output=1*_B )
+	&
+    ( *state_output=2*_A <-> *state_output=2*_B )
+	&
+    ( *state_output=3*_A <-> *state_output=3*_B )
+	&
+    ( *state_output=4*_A <-> *state_output=4*_B )
+    &
+    ( *state_output=5*_A <-> *state_output=5*_B )
+	&
+    ( *state_output=6*_A <-> *state_output=6*_B )
+	&
+    ( *state_output=7*_A <-> *state_output=7*_B )
+	&
+    ( *state_output=8*_A <-> *state_output=8*_B )
+    &
+    ( *state_output=9*_A <-> *state_output=9*_B )
+ &
+    ( *state_output=10*_A <-> *state_output=10*_B )   
+     &
+    ( *state_output=11*_A <-> *state_output=11*_B )
+ &
+    ( *state_output=12*_A <-> *state_output=12*_B )
+    &
+    ( *state_output=13*_A <-> *state_output=13*_B )
+ &
+    ( *state_output=14*_A <-> *state_output=14*_B )
+ &
+    ( *state_output=15*_A <-> *state_output=15*_B )
+ &
+    ( *state_output=16*_A <-> *state_output=16*_B )
+    &
+    ( *state_output=17*_A <-> *state_output=17*_B )
+ &
+    ( *state_output=18*_A <-> *state_output=18*_B )
+ &
+    ( *state_output=19*_A <-> *state_output=19*_B )
+ &
+    ( *state_output=20*_A <-> *state_output=20*_B )
+    &
+    ( *state_output=21*_A <-> *state_output=21*_B )
+ &
+    ( *state_output=22*_A <-> *state_output=22*_B )
+ &
+    ( *state_output=23*_A <-> *state_output=23*_B )
+ &
+    ( *state_output=24*_A <-> *state_output=24*_B )
+    &
+    ( *state_output=25*_A <-> *state_output=25*_B )
+ &
+    ( *state_output=26*_A <-> *state_output=26*_B )
+ &
+    ( *state_output=27*_A <-> *state_output=27*_B )
+ &
+    ( *state_output=28*_A <-> *state_output=28*_B )
+)
+)
