@@ -1,0 +1,21 @@
+forall A. forall B.
+(  
+    (G( *!tau*_A )) & (G( *!tau*_B )) &
+    (
+           (
+    ( *obs_output=0*_A <-> *obs_output=0*_B )
+	&
+    ( *obs_output=1*_A <-> *obs_output=1*_B )
+	&
+    ( *obs_output=2*_A <-> *obs_output=2*_B )
+	&
+    ( *obs_output=3*_A <-> *obs_output=3*_B )
+	&
+    ( *obs_output=4*_A <-> *obs_output=4*_B )
+    )
+    ) U ( *fault*_A ) ->
+    
+(
+	F ( *fault*_B )
+)
+)
